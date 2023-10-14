@@ -1,0 +1,62 @@
+.name-input{
+    display: flex;
+    align-items: center;
+}
+.first{
+    border: 1px solid #D9D9DB;
+background: #F7F8FA;
+    width: 175px;
+    height: 25px;
+}
+.sec{
+    border: 1px solid #D9D9DB;
+background: #F7F8FA;
+    width: 170px;
+    height: 25px;
+}
+.em{
+    border: 1px solid #D9D9DB;
+background: #F7F8FA;
+    width: 350px;
+height: 25px;
+}
+.pass input{
+    border: 1px solid #D9D9DB;
+background: #F7F8FA;
+    width: 350px;
+    height: 25px;
+}
+.con{
+    border: 1px solid #D9D9DB;
+background: #F7F8FA;
+    width: 350px;
+    height: 25px; 
+}
+.cr{
+    margin-top: 20px;
+    border-radius: 20px;
+background: #2F6CE5;
+width: 320px;
+height: 40px;
+border: none;
+color: white;
+}
+.g{
+    margin-top: 20px;
+    border-radius: 2px;
+border: 0.6px solid #D9D9DB;
+background: #FFF;
+width: 320px;
+height: 38px;
+}
+.fb{
+    margin-top: 20px;
+    border-radius: 2px;
+border: 0.6px solid #D9D9DB;
+background: #FFF;
+width: 320px;
+height: 38px;
+}
+.left h4{
+    margin-left: 80px;
+}

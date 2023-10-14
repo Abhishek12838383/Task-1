@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* navbar */
+
+.navbar{
+    background-color: white;
+    height: 72px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 72px;
+}
+.nav-input{
+    display: flex;
+    align-items: center;
+}
+.nav-input span{
+    color: #5C5C5C;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: #F2F2F2;
+    border: none;
+    height: 42px;
+    border-radius:20px 0 0 20px;
+}
+.input{
+    border-radius: 0 20px 20px 0;
+    border: none;
+    height: 42px;
+    width: 300px;
+    background-color: #F2F2F2;
+}
+.nav-text{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.nav-text h4{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.nav-text h5{
+    font-size: 1rem;
+    color: #2F6CE5;
+    font-weight: lighter;
+}
+
+/* hero-section */
+.hero img{
+    /* position:absolute; */
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.60) 100%);
+}
+/* .title{
+    margin-top: 280px;
+    margin-left: 180px;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    position: absolute;
+}
+.txt{
+    margin-top: 315px;
+    margin-left: 180px;
+    font-size: 16px;
+    font-weight: lighter;
+    position: absolute;
+    color: white;
+} */
+
+
+/* tag-section */
+
+.tag{
+    margin-left: 200px;
+    height: 36px;
+    width: 1000px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bar-1{
+font-size: 0.9rem;
+font-weight: lighter;
+}
+.bar-2{
+    margin-left: 10px;
+    font-size: 0.9rem;
+font-weight: lighter;
+    color: #8A8A8A;
+}
+.post{
+    margin-left: 400px;
+    width: 120px;
+height: 36px;
+border-radius: 4px;
+background: #EDEEF0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grp{
+    width: 120px;
+    height: 36px;
+    border-radius: 4px;
+background: #2F6CE5;
+color: white;
+border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* feed */
+.feed-1{
+    margin-left: 200px;
+}
+
+.feed-1 img{
+    height: 200px;
+    width: 500px;
+}
+.title{
+    margin-top: 20px;
+    width: 400px;
+    color: #000;
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+}
+.txxt{
+    margin-top: 20px;
+    color: #5C5C5C;
+font-size: 0.9rem;
+font-style: normal;
+font-weight: 400;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.profile img{
+    border-radius: 20px;
+    height: 24px;
+    width: 24px;
+}
+.views{
+    margin-top: 20px;
+    margin-left: 240px;
+    display: flex;
+    align-items: center;
+}
+.share{
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 2px;
+background: #EDEEF0;
+width: 32px;
+height: 32px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.feed-2{
+    margin-left: 200px;
+   margin-top: 50px;
+}
+.txxt-1{
+    margin-top: 10px;
+    color: green;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    border: 1px solid rgb(177, 177, 177);
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* responsive */
+#nav-i{
+    display: none;
+}
+
+@media  screen and (max-width:1000px) {
+    #post{
+display: none;
+    }
+    #grp{
+        display: none; 
+    }
+}
+
+@media  screen and (max-width:900px) {
+   #nav-input{
+    display: none;
+   }
+   #signinn{
+    display: none;
+   }
+   #nav-i{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+   }
+ 
+}
+@media  screen and (max-width:800px) {
+#feed-1{
+margin-left: 0px;
+}
+#feed-2{
+    margin-left: 0px;
+}
+#hero{
+    display: none;
+}
+}
+@media  screen and (max-width:500px){
+    #log{
+cursor: pointer;
+    }
+}

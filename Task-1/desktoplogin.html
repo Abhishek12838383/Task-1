@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="javascript">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="desktoplogin.css">
+</head>
+<body>
+    
+<div class="si">
+    <div class="header">
+        Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼
+    </div>
+    <div class="header-1">
+        <h3>Sign In</h3>
+        <div id="acc" class="sign">
+            <h4>Don't have an account?</h4>
+            <h5> Create account for free</h5>
+        </div>
+    </div>
+    <div class="signin">
+        <div class="left">
+            <div class="name-input">
+              <input type="text" placeholder="First Name" class="first">
+              <input type="text" placeholder="Last Name" class="sec">
+            </div>
+            <input type="text" placeholder="Email" class="em">
+            <div class="pass">
+                <input type="text" placeholder="Password">
+            </div>
+            <input type="text" placeholder="Confirm Password" class="con">
+
+            <button class="cr">Sign In</button>
+
+            <button class="g">
+                Sign up with Google
+            </button>
+            <button class="fb">
+                Sign up with Facebook
+            </button>
+
+            <h4>Forgot Password ?</h4>
+        </div>
+        <div class="right">
+            <img src="img/atg_illustration.png" alt="">
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById('acc').addEventListener('click', function() {
+  
+  var newPageUrl = 'desktopsign.html';
+
+  window.location.href = newPageUrl;})
+</script>
+
+</body>
+</html>
